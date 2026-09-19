@@ -1,0 +1,5 @@
+*.pkt~
+*.bak
+*.tmp
+.DS_Store
+.env
