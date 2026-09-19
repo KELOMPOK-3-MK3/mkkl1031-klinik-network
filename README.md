@@ -12,14 +12,18 @@ Rancangan dan simulasi jaringan untuk klinik kesehatan kecil satu lantai. Setiap
 | No | Nama | NIM | Peran |
 |---|---|---|---|
 | 1 | Yogi Prasetya Sadewa | 23210060 | Ketua kelompok; perancangan topologi, skema pengalamatan VLSM, dan konfigurasi routing |
-| 2 | [Nama Anggota 2] | [NIM] | Konfigurasi VLAN dan inter-VLAN routing pada core switch L3 |
-| 3 | [Nama Anggota 3] | [NIM] | Konfigurasi layanan server: DHCP, DNS, web, dan FTP |
-| 4 | [Nama Anggota 4] | [NIM] | Penerapan ACL pemisahan akses jaringan tamu dengan jaringan medis |
-| 5 | [Nama Anggota 5] | [NIM] | Pengujian konektivitas dan penyusunan tabel bukti pengujian |
-| 6 | [Nama Anggota 6] | [NIM] | Dokumentasi, README, dan pengelolaan repository |
+| 2 | Asmarudin | 23210133 | Konfigurasi VLAN dan inter-VLAN routing pada core switch L3 |
+| 3 | Deski Taiza | 23210003 | Konfigurasi layanan server: DHCP, DNS, web, dan FTP |
+| 4 | Akhsanul Taqwim | 23210006 | Penerapan ACL pemisahan akses jaringan tamu dengan jaringan medis |
+| 5 | Wira | 23210045 | Pengujian konektivitas dan penyusunan tabel bukti pengujian |
+| 6 | Abadi | 23210004 | Perancangan dan pengujian skenario jalur cadangan (routing dinamis) |
+| 7 | Ferdyan Ardhani | 23210039 | Penyusunan tabel pengalamatan VLSM dan validasinya terhadap simulasi |
+| 8 | Muhammad Iqbal | 23210142 | Pengujian pembatasan akses dari sisi tamu maupun dari sisi medis |
+| 9 | Meriandi Wahyu Kurniawan | [NIM] | Dokumentasi, README, dan pengelolaan repository |
 
-> Kelompok berisi 6 orang. Bagian yang belum memiliki nama akan dilengkapi pada
-> pertemuan berikutnya; setiap anggota melakukan commit dari akun masing-masing.
+> Kelompok berjumlah 9 orang; panduan menetapkan 4–5 orang sehingga jumlah ini
+> dimintakan persetujuan dosen pada pertemuan ke-2. Setiap anggota melakukan
+> commit dari akun masing-masing.
 
 ## Rencana Proyek
 
