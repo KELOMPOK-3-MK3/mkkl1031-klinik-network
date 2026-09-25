@@ -51,13 +51,21 @@ ipconfig /all
 ```
 
 Alamat yang muncul harus sesuai tabel pada `docs/pengalamatan-vlsm.md`.
+Alamat penting yang dipakai pada langkah berikutnya:
+
+| Perangkat | Alamat |
+|---|---|
+| Gerbang VLAN 10 (pendaftaran) | 192.168.10.1 |
+| Gerbang VLAN 20 (poliklinik) | 192.168.10.65 |
+| Server-Layanan | 192.168.10.242 |
 
 ### 3. Menguji konektivitas antar-VLAN
 
 ```
 ping 192.168.10.1        # gerbang VLAN sendiri
-ping 192.168.10.130      # server pada VLAN 50
-tracert 192.168.10.130   # harus melewati core switch
+ping 192.168.10.65       # gerbang VLAN lain (bukti inter-VLAN routing)
+ping 192.168.10.242      # Server-Layanan pada VLAN 100
+tracert 192.168.10.242   # harus melewati core switch
 ```
 
 ### 4. Menguji pembatasan akses tamu
@@ -68,9 +76,9 @@ ke internet tetap berjalan. Catat hasilnya pada `docs/pengujian.md`.
 ### 5. Menguji layanan server
 
 ```
-nslookup <nama-host-internal>     # penamaan internal
-buka http://192.168.10.130        # portal web
-ftp 192.168.10.130                # server berkas pencadangan
+nslookup server.klinik.local      # penamaan internal
+buka http://web.klinik.local      # portal web
+ftp 192.168.10.242                # server berkas pencadangan
 ```
 
 > Berkas simulasi ditambahkan setelah topologi selesai dikerjakan.
